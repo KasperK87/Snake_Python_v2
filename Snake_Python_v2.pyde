@@ -103,7 +103,7 @@ def keyPressed():
         elif keyCode == DOWN and dir.y != -1:
             dir.y = 1
             dir.x = 0
-    elif keyCode == LEFT and dir.x != 1:
+        elif keyCode == LEFT and dir.x != 1:
             dir.x = -1
             dir.y = 0
         elif keyCode == RIGHT and dir.x != -1:
